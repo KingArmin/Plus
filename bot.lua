@@ -8,45 +8,46 @@ HTTPS = require('ssl.https')
 local bot_api_key = "220861604:AAFrCYZVedojp4OqXBRLbXO4Bpk-_4O74Es"
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
-local start = [[HI
-`/bold text`
-return *bold* text
+local start = [[
+`Hi My Friend`
 
-`/italic text`
-return _italic_ text
-
-`/link url text`
-markdown link
-
-`/code text`
-return `code` text
+*Commands*
 
 
-*-channel*
-*add bot to a channel then use this commands*
+/bold *Text*
 
-`/boldch @channelusername text`
-send *bold* text to a channel
+/italic _Text_
 
-`/italicch @channelusername text`
-send _italic_ text to a channel
+/link URL [Text](https://Google.Com)
 
-`/linkch @channelusername url text`
-send markdown link to a channel
-
-`/codech @channelusername text`
-send `code` text to a channel
+/code `Text`
 
 
-*-other*
 
-*sticker to photo* 
-_just send a sticker_
+*Channel*
 
-*photo to sticker*
-_just send a photo_
+
+/boldch @Username *Text*
+
+/italicch @Username _Text_
+
+/linkch @Username URL [Text](https://Google.Com)
+
+/codech @Username `Text`
+
+
+*Sticker*
+
+
+*Sticker To Photo* 
+_Send Sticker For Me_
+
+*Photo To Sticker*
+_Send Photo For Me_
+
 
 [Channel](https://Telegram.me/TeleIranTeam)
+
 ]] 
 
 -------
